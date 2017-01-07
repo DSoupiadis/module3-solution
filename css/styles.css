@@ -1,0 +1,120 @@
+body
+	{
+	background-color: #ccccff;
+	}
+/** HEADER **/
+#header-nav
+	{
+		border-radius: 0;
+		border: 2px solid #6600cc;
+		background-color:#99ccff;
+	}
+.navbar-brand
+	{
+		padding-top: 25px;
+
+	}
+.navbar-brand h1 /*Restaurant Name*/
+	{
+		margin-top: 0;
+		margin-bottom: 0;
+		font-size: 1.5em;
+		line-height: 0.75;
+		text-shadow: 1px 1px 1px #222;
+		font-weight: bold;
+	}
+.navbar-brand a:hover,.navbar-brand a:focus
+	{
+		text-decoration: none;
+	}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar 
+	{
+		 border: 1px solid #6600cc;
+		
+	}
+
+.navbar-header button.navbar-toggle
+	{
+		clear: both;
+		margin-top: -30px;
+	}
+/** END HEADER **/
+.box
+	{
+    float: left;
+    border: 1px solid #6600cc;
+    margin-right: 4%;
+    margin-top: 4%;
+    color:#ccccff;
+    font-weight: bold;
+    background-color: #0066cc;
+	}
+
+h2,h3
+	{
+		text-shadow: 1px 1px 1px #222;
+		font-weight: bold;
+	}
+h2
+	{
+		color: #0033cc;
+	}
+h3
+	{
+		color: #99ccff;
+	}
+
+
+#nav-list
+	{
+		margin-top: 0px; 
+		margin-bottom: 0px;
+	}
+
+#nav-list a
+	{
+		text-align: center;
+		background-color: #6600cc;
+		color: #e7e7e7;
+		font-weight: bold;
+		border: 1px solid #e7e7e7;
+	}
+
+#nav-list a:hover
+	{
+		background: #e7e7e7;
+		color: #6600cc;
+	}
+
+
+/********** Large devices only ****************/
+@media (min-width: 1200px)
+	{/* */
+
+	}
+
+/********** Medium devices only ****************/
+@media (min-width: 992px) and (max-width: 1199px)
+	{/* */
+
+	}
+
+/********** Small devices only ****************/
+@media (min-width: 768px) and (max-width: 991px)
+	{/* */
+
+	}
+
+/********** Very small devices only ****************/
+@media (max-width: 767px)
+	{/* */
+
+	}
+
+
+/********** Super extra small devices only ****************/
+@media (max-width: 479px)
+	{
+
+	}
